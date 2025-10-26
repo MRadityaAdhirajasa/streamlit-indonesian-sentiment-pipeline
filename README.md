@@ -4,6 +4,17 @@ Proyek ini menyediakan sebuah aplikasi web interaktif yang dibangun menggunakan 
 
 ---
 
+##  Link
+
+Link : https://app-indonesian-sentiment-pipeline.streamlit.app/
+
+Tampilan Dashboard
+
+<img width="1895" height="554" alt="image" src="https://github.com/user-attachments/assets/c6fd09a3-5ad9-4ede-98a8-03c01027ae23" />
+
+
+---
+
 ##  Latar belakang
 
 Analisis sentimen, proses mengidentifikasi dan mengkategorikan opini yang diekspresikan dalam teks, menjadi semakin penting. Memahami sentimen pelanggan dari ulasan produk, komentar media sosial, atau survei dapat memberikan wawasan berharga untuk pengembangan produk, strategi pemasaran, dan manajemen reputasi. Namun, membangun *pipeline* analisis sentimen dari awal bisa jadi kompleks, melibatkan banyak langkah mulai dari pembersihan data hingga *deployment* model.
@@ -82,5 +93,19 @@ Aplikasi ini mencakup langkah-langkah berikut dalam *pipeline* analisis sentimen
 * **Parameter Terbatas:** Hanya beberapa *hyperparameter* utama yang diekspos ke pengguna. *Hyperparameter tuning* otomatis (seperti Grid Search) tidak diimplementasikan.
 * **Skalabilitas:** Aplikasi ini dirancang untuk demonstrasi dan mungkin tidak efisien untuk dataset yang sangat besar (ratusan ribu atau jutaan baris) karena pemrosesan dilakukan di memori server Streamlit.
 * **Bukan Produksi:** Tidak dimaksudkan untuk *deployment* skala produksi tanpa modifikasi lebih lanjut (misalnya, *error handling* yang lebih robust, *logging*, pemisahan *frontend* dan *backend*, dll.).
+
+---
+
+## How To Run
+
+### Install requirements.txt
+```
+pip install -r requirements.txt
+```
+
+### Run steamlit app
+```
+streamlit run dashboard.py
+```
 
 ---
