@@ -1,0 +1,10 @@
+streamlit==1.35.0
+pandas==2.3.0
+numpy==1.26.4
+scikit-learn==1.2.2
+nltk==3.9.2
+Sastrawi==1.0.1
+seaborn==0.13.2
+matplotlib==3.10.3
+wordcloud==1.9.4
+requests==2.32.3
