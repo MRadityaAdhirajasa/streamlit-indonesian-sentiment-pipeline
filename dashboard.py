@@ -30,7 +30,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 
 # Konfigurasi halaman
 st.set_page_config(page_title="Sentiment Pipeline", layout="wide")
-st.title("Pipeline Analisis Sentimen Interaktif")
+st.title("Pipeline Analisis Sentimen Interaktif 1.0")
 st.markdown("---")
 
 # Set style untuk plot
@@ -985,3 +985,4 @@ else:
          st.info("Silakan upload file CSV untuk memulai.")
     else:
          st.error("Setup NLTK Gagal. Harap periksa koneksi internet atau coba refresh halaman.")
+
