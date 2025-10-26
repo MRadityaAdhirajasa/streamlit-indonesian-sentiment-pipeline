@@ -1,6 +1,6 @@
-# 🚀 Interactive Indonesian Sentiment Analysis Pipeline
+# 🚀 Pipeline Analisis Sentimen Interaktif Bahasa Indonesia
 
-This project provides an interactive web application built with Streamlit for performing end-to-end sentiment analysis on Indonesian text data. Users can upload their own CSV data, preprocess it, automatically label sentiments using a lexicon, visualize insights, train various machine learning models with custom parameters, and test the trained model with new inputs.
+Proyek ini menyediakan sebuah aplikasi web interaktif yang dibangun menggunakan Streamlit untuk melakukan analisis sentimen secara end-to-end pada data teks Bahasa Indonesia. Pengguna dapat mengunggah data CSV mereka sendiri, memprosesnya melalui tahapan pra-pemrosesan, memberi label sentimen secara otomatis menggunakan kamus lexicon, memvisualisasikan insight, melatih berbagai model machine learning dengan parameter khusus, serta menguji model yang telah dilatih menggunakan input baru.
 
 ---
 
